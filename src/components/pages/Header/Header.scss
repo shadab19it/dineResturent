@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Inconsolata|Josefin+Sans|Reem+Kufi&display=swap");
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.418)), url("../../../assest/Background.jpg") center/cover no-repeat;
+  padding: 0 100px;
+
+  .nav {
+    a {
+      padding-top: 35px;
+      padding-left: 0;
+      font-size: 2.5rem;
+      color: #fff;
+      font-family: "Reem Kufi", sans-serif;
+      letter-spacing: 2px;
+    }
+  }
+
+  .jumbotron {
+    background: none;
+    color: rgb(231, 228, 228);
+    padding-left: 0;
+    .title {
+      line-height: 95px;
+      font-family: "Inconsolata", monospace;
+      font-weight: 300;
+    }
+    .description {
+      width: 400px;
+      font-size: 22px;
+      letter-spacing: 1.2px;
+    }
+    .btn {
+      width: 200px;
+      height: 60px;
+      font-size: 22px;
+      &:hover {
+        background: none;
+      }
+    }
+  }
+}
